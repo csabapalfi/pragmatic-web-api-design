@@ -1,0 +1,13 @@
+{
+  "version": "1.0.0",
+  "devDependencies": {
+    "github-markdown-html": "^1.0.1",
+    "gh-pages-travis": "^1.0.0"
+  },
+  "scripts": {
+    "build": "github-markdown-html build",
+    "start": "github-markdown-html start",
+    "deploy": "gh-pages-travis"
+  },
+  "name": "pragmatic-web-api-design"
+}
