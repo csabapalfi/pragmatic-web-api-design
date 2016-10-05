@@ -10,5 +10,5 @@
     "staticpath": "build",
     "noprompt": true,
     "prep": [ "build" ]
-  },
+  }
 }
