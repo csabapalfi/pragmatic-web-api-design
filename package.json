@@ -7,7 +7,6 @@
     "deploy": "git push && gh-pages-deploy"
   },
   "gh-pages-deploy": {
-    "staticpath": "build",
     "noprompt": true,
     "prep": [ "build" ]
   }
