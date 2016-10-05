@@ -4,7 +4,7 @@
   "scripts": {
     "build": "github-markdown-html build",
     "start": "github-markdown-html start",
-    "deploy": "gh-pages-deploy"
+    "deploy": "git push && gh-pages-deploy"
   },
   "gh-pages-deploy": {
     "staticpath": "build",
