@@ -2,8 +2,8 @@
   "name": "pragmatic-web-api-design",
   "version": "1.0.0",
   "scripts": {
-    "build": "github-markdown-html build",
     "start": "github-markdown-html start",
+    "build": "github-markdown-html build",
     "deploy": "git push && gh-pages-deploy"
   },
   "gh-pages-deploy": {
