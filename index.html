@@ -1,0 +1,47 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <title><%= htmlWebpackPlugin.options.title %> by Csaba Palfi</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+</head>
+<body>
+  <style><%= compilation.assets['styles.css'].source() %></style>
+  <style>
+    .meta {
+      margin-bottom: 20px;
+      color: #999;
+      list-style: none;
+    }
+    .author {
+        display: inline;
+        padding-right: 20px;
+    }
+    .date {
+        display: inline;
+        padding-right: 20px;
+    }
+    .author-avatar {
+        vertical-align: top;
+        border-radius: 3px;
+    }
+    .meta a {
+        color: #999;
+    }
+  </style>
+  <article class="markdown-body">
+    <h1><%= htmlWebpackPlugin.options.title %></h1>
+    <ul class="meta">
+      <li class="date">
+        <svg aria-hidden="true" class="octicon octicon-calendar" height="16" version="1.1" viewBox="0 0 14 16" width="14"><path d="M13 2h-1v1.5c0 .28-.22.5-.5.5h-2c-.28 0-.5-.22-.5-.5V2H6v1.5c0 .28-.22.5-.5.5h-2c-.28 0-.5-.22-.5-.5V2H2c-.55 0-1 .45-1 1v11c0 .55.45 1 1 1h11c.55 0 1-.45 1-1V3c0-.55-.45-1-1-1zm0 12H2V5h11v9zM5 3H4V1h1v2zm6 0h-1V1h1v2zM6 7H5V6h1v1zm2 0H7V6h1v1zm2 0H9V6h1v1zm2 0h-1V6h1v1zM4 9H3V8h1v1zm2 0H5V8h1v1zm2 0H7V8h1v1zm2 0H9V8h1v1zm2 0h-1V8h1v1zm-8 2H3v-1h1v1zm2 0H5v-1h1v1zm2 0H7v-1h1v1zm2 0H9v-1h1v1zm2 0h-1v-1h1v1zm-8 2H3v-1h1v1zm2 0H5v-1h1v1zm2 0H7v-1h1v1zm2 0H9v-1h1v1z"></path></svg>
+        September 27, 2016
+      </li>
+
+      <li class="author">
+        <img alt="@csabapalfi" class="author-avatar" height="18" src="https://avatars2.githubusercontent.com/u/181959?v=3&amp;s=40" width="18"> <a href="/">csabapalfi</a>
+      </li>
+    </ul>
+    <%= require('index.md') %>
+  </article>
+</body>
+</html>

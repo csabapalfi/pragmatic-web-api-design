@@ -9,6 +9,13 @@
   "gh-pages-deploy": {
     "staticpath": "dist",
     "noprompt": true,
-    "prep": [ "build" ]
+    "prep": [
+      "build"
+    ]
+  },
+  "github-markdown-html": {
+    "html": {
+      "template": "index.html"
+    }
   }
 }
