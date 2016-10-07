@@ -6,16 +6,15 @@
     "build": "github-markdown-html build",
     "deploy": "git push && gh-pages-deploy"
   },
+  "author": {
+    "name": "Csaba Palfi",
+    "url": "https://csabapalfi.github.io"
+  },
   "gh-pages-deploy": {
     "staticpath": "dist",
     "noprompt": true,
     "prep": [
       "build"
     ]
-  },
-  "github-markdown-html": {
-    "html": {
-      "template": "index.html"
-    }
   }
 }
