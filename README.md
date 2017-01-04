@@ -1,4 +1,4 @@
-# Pragmatic Web API design
+# ✏️ Pragmatic Web API design
 
 [Csaba Palfi](https://csabapalfi.github.io), Mar 2013
 
